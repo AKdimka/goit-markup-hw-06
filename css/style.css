@@ -59,23 +59,20 @@ body {
 .header-section {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 
 	background: var(--bg-color);
 	border-bottom: 1px solid #ececec;
 }
 .flex {
 	display: flex;
-	justify-content: space-between;
 }
-.nav__logo,
-.footer-logo {
+.logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
 	color: var(--secondary-text-color);
-}
-.nav__logo {
 }
 .logo-1 {
 	color: var(--brand-color);
@@ -147,7 +144,6 @@ nav {
 }
 /* -------Герой------- */
 .hero-section {
-	min-width: 1600px;
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
@@ -162,9 +158,10 @@ nav {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
+	width: 700px;
 
-	margin-right: 237px;
-	margin-left: 237px;
+	margin-right: auto;
+	margin-left: auto;
 
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -215,7 +212,7 @@ nav {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	min-width: 528px;
+	max-width: 528px;
 	transform: translate(-50%, -50%);
 
 	padding: 40px;
@@ -436,11 +433,10 @@ nav {
 
 /* -------Наша команда------- */
 .workers-section {
-	min-width: 1600px;
 	background: var(--third-bg);
 	text-align: center;
 }
-.workers__title {
+.workers-section__title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
@@ -550,10 +546,9 @@ nav {
 
 /* -------Подвал------- */
 .footer-section {
-	min-width: 1600px;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: var(--secondary-bg);
+	background-color: var(--secondary-bg);
 }
 .footer-container {
 	display: flex;
@@ -561,7 +556,7 @@ nav {
 }
 .address-container {
 }
-.footer-logo {
+.logo--contrast {
 	color: var(--bg-color);
 }
 address {

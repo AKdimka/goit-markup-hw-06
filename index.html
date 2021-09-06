@@ -22,32 +22,30 @@
 
 <body>
 	<!-- верхняя линия -->
-	<header class="header-section">
-		<div class="container flex">
-			<nav>
-				<a class="nav__logo" href="./index.html" lang="en"><span class="logo-1">Web</span>Studio</a>
-				<ul class="nav">
-					<li class="nav-item"><a class="nav__link link current" href="./index.html">Студия</a></li>
-					<li class="nav-item"><a class="nav__link link" href="./portfolio.html">Портфолио</a></li>
-					<li class="nav-item"><a class="nav__link link" href="./index.html">Контакты</a></li>
-				</ul>
-			</nav>
-
-			<ul class="contacts">
-				<li class="contacts-item">
-					<a class="contacts-link link" href="mailto:info@devstudio.com">
-						<svg class="contacts-icon envelope" width="16" height="12">
-							<use href="./images/sprite.svg#envelope"></use>
-						</svg>info@devstudio.com</a>
-				</li>
-				<li class="contacts-item">
-					<a class="contacts-link link" href="tel:+380961111111">
-						<svg class="contacts-icon" width="10" height="16">
-							<use href="./images/sprite.svg#phone"></use>
-						</svg>+38 (096) 111 11 11</a>
-				</li>
+	<header class="header-section container">
+		<nav>
+			<a class="logo" href="./index.html" lang="en"><span class="logo-1">Web</span>Studio</a>
+			<ul class="nav">
+				<li class="nav-item"><a class="nav__link link current" href="./index.html">Студия</a></li>
+				<li class="nav-item"><a class="nav__link link" href="./portfolio.html">Портфолио</a></li>
+				<li class="nav-item"><a class="nav__link link" href="./index.html">Контакты</a></li>
 			</ul>
-		</div>
+		</nav>
+
+		<ul class="contacts">
+			<li class="contacts-item">
+				<a class="contacts-link link" href="mailto:info@devstudio.com">
+					<svg class="contacts-icon envelope" width="16" height="12">
+						<use href="./images/sprite.svg#envelope"></use>
+					</svg>info@devstudio.com</a>
+			</li>
+			<li class="contacts-item">
+				<a class="contacts-link link" href="tel:+380961111111">
+					<svg class="contacts-icon" width="10" height="16">
+						<use href="./images/sprite.svg#phone"></use>
+					</svg>+38 (096) 111 11 11</a>
+			</li>
+		</ul>
 	</header>
 
 	<main>
@@ -77,7 +75,6 @@
 						<p class="features__text">Идейные соображения, а также начало повседневной работы по формированию
 							позиции.</p>
 					</li>
-
 					<li class="features-item">
 						<div class="features-svg-box">
 							<svg class="features-svg" height="70" width="70">
@@ -89,7 +86,6 @@
 							за
 							собой.</p>
 					</li>
-
 					<li class="features-item">
 						<div class="features-svg-box">
 							<svg class="features-svg" height="70" width="70">
@@ -148,7 +144,7 @@
 		<section class="workers-section section">
 			<div class="container">
 
-				<h2 class="workers__title">Наша команда</h2>
+				<h2 class="workers-section__title">Наша команда</h2>
 				<ul class="workers">
 					<li class="workers__card">
 						<img src="./images/workers/img-3.jpg" height="260" width="270" alt="Фото Игоря Демьяненко">
@@ -348,7 +344,8 @@
 
 		<div class="container footer-container">
 			<div class="address">
-				<a class="footer-logo" href="./index.html"><span class="logo-1">Web</span>Studio</a>
+				<a class="logo logo--contrast" href="./index.html">
+					<span class="logo-1">Web</span>Studio</a>
 				<address>
 					<ul class="address">
 						<li class="address-item street">
